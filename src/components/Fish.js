@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>PIXI.js Boilerplate Project</title>
-
-    <meta charset="utf-8" />
-    import { PixiPlugin } from "gsap/all";
+import { PixiPlugin } from "gsap/all";
 import gsap from "gsap/gsap-core";
 import { Sprite, Texture } from "pixi.js";
 
@@ -36,13 +30,3 @@ export default class Fish extends Sprite {
         this.texture = this._textures.smallFish;
     }
 }
-    <style type="text/css">
-      body {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-    </style>
-  </head>
-  <body></body>
-</html>
